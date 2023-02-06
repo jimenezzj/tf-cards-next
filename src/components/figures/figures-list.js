@@ -1,7 +1,18 @@
+import FigureListItem from "./figures-item";
+
 function FigureList(props) {
+
+    const { figures } = props;
+
+    console.log(figures);
+
     return (
         <div>
-            <ul>
+            <ul className="flex">
+                {
+                    figures instanceof Array && figures?.length
+                    && figures.map(f => <FigureListItem item={f} />)
+                }
             </ul>
         </div>
 

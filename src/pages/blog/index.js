@@ -1,6 +1,4 @@
-import { readFile } from "fs/promises";
 import Link from "next/link";
-import path from "path";
 
 function BlogPage(props) {
 

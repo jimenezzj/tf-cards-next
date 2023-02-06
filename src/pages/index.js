@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function HomePage() {
 
-  const paths = ['portafolio', 'client', 'Items'];
+  const paths = ['portafolio', 'client', 'Items', 'figures'];
 
   return (
     <div>
