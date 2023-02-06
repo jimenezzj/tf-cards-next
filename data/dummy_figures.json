@@ -1,0 +1,64 @@
+{
+    "figures": [
+        {
+            "id": "4",
+            "serie": {
+                "id": "1",
+                "line": "st",
+                "class": "leader"
+            },
+            "name": "The Fallen",
+            "desc": "This  is a a Decption who was the main villian on TT ROFT",
+            "side": "dc",
+            "pictures": []
+        },
+        {
+            "id": "1",
+            "serie": {
+                "id": "2",
+                "line": "st",
+                "class": "voyager"
+            },
+            "name": "Megatron BV 1",
+            "desc": "This is the leader of decepticons whose is the main villian in TF 1",
+            "side": "dc",
+            "pictures": []
+        },
+        {
+            "id": "2",
+            "serie": {
+                "id": "3",
+                "line": "st",
+                "class": "voyager"
+            },
+            "name": "Optimus Prime BV 1",
+            "desc": "This is the leader of autobots and he is the latest of the primes alive",
+            "side": "aut",
+            "pictures": []
+        },
+        {
+            "id": "3",
+            "serie": {
+                "id": "5",
+                "line": "mpm",
+                "class": null
+            },
+            "name": "Grimlock BV",
+            "desc": "This is the leader of the Dianobots and he is one of the first transformers arrived to the earth ",
+            "side": "aut",
+            "pictures": []
+        },
+        {
+            "id": "3",
+            "serie": {
+                "id": "4",
+                "line": "st",
+                "class": "leader"
+            },
+            "name": "Grimlock BV",
+            "desc": "This is the leader of the Dianobots and he is one of the first transformers arrived to the earth ",
+            "side": "aut",
+            "pictures": []
+        }
+    ]
+}

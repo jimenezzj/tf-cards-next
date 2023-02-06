@@ -2,9 +2,9 @@ FROM node:19-alpine
 
 WORKDIR /usr/tf-cards-app
 COPY . .
-RUN ./scripts/node-app-starter.sh
 RUN npm i
-RUN ./scripts/install-dev-tools.sh
+RUN sh "./scripts/node-app-starter.sh"
+RUN sh "./scripts/install-dev-tools.sh"
 
 EXPOSE 30
 

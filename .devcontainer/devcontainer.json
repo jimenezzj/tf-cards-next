@@ -27,7 +27,10 @@
 		"vscode": {
 			"extensions": [
 				"tinkertrain.theme-panda",
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"Equinusocio.vsc-community-material-theme",
+				"bradlc.vscode-tailwindcss",
+				"VisualStudioExptTeam.vscodeintellicode"
 			]
 		}
 	},
