@@ -4,14 +4,14 @@ function FigureList(props) {
 
     const { figures } = props;
 
-    console.log(figures);
+    // console.log(figures);
 
     return (
         <div>
             <ul className="flex">
                 {
                     figures instanceof Array && figures?.length
-                    && figures.map(f => <FigureListItem item={f} />)
+                    && figures.map(f => <FigureListItem item={f} key={f.id} />)
                 }
             </ul>
         </div>

@@ -4,7 +4,7 @@ function FigureListItem(props) {
     const { item } = props;
     const { id, name, serie } = item;
 
-    console.log("FigureListItem: ", item);
+    console.log(id);
 
     const getSeriesName = (serieCode) => {
         let serieName = null;
@@ -22,7 +22,7 @@ function FigureListItem(props) {
     }
 
     return (
-        <li className="max-[150px] pl-2 last-of-type:pl-0">
+        <li className="max-[150px] pl-2 last-of-type:pl-0 card">
             <TfcCard>
                 <div className="flex">
                     <h4>{getSeriesName(serie?.line)}</h4>

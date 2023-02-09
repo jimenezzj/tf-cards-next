@@ -1,3 +1,4 @@
 .tfc-card {
+    /* @apply card */
     @apply card
-}
+} 
